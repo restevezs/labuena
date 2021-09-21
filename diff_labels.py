@@ -1,12 +1,6 @@
 # File       : diff_labels.py
 # Author     : Rafael Estevez
 # Company    : A2e technologies
-# Created    : 16/03/2021 
-# esta es otra linea
-# digamos que esta es la linea 3
-# Bueno ahora esta el al lina 4
-# ahora s la linea 5
-# esta es la linea 6
 # -----------------------------------------------------------------------------
 # Description: a script that analyzes the te output of git-diff and returns based on a files.md_FPGA of labels the corresponding label
 # --------------------------------------------------------------

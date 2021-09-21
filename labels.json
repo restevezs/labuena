@@ -22,19 +22,19 @@
         "label": "Feature",
         "linesChanged": "5+",
         "FilesChanged": "31-50",
-        "description": "Thiraty or more files were edited"
+        "description": "Tiraty or more files were edited"
       },
     {
         "label": "Monster",
         "linesChanged": "5+",
         "FilesChanged": "51-200",
-        "description": "fiftya or more files were edited"
+        "description": "fitya or more files were edited"
       },
     {
         "label": "Calamity",
         "linesChanged": "5+",
         "FilesChanged": "200+",
-        "description": "tawo hundred or more files were edited"
+        "description": "two hundred or more files were edited"
       }]
 
 }
