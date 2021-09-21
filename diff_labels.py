@@ -79,7 +79,7 @@ def edited_lines(idcommit):
     Minorvalue = [int(i) for i in Minorvalue]
     for lines in merges_lines:
 
-        if ("files changed" in lines):
+        if (("files changed" in lines) or ("file changed" in lines)):
             lines.rsplit(',')
             count_of_files_edited_add = re.findall(r'\d+ (?=files changed)', lines)
             if count_of_files_edited_add:
