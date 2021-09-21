@@ -1,9 +1,6 @@
 hola cosita
 asdf
-1
-2
-3
-14
+4
 5
 6
 7
