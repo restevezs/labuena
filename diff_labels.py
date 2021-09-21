@@ -56,6 +56,7 @@ def variants_collected(Variant_to_compile):
 def edited_lines(idcommit):
 
     label_fromsjson = []
+    EmptyValue = []
     Openjson = open("labels.json", "r")
     data_json = json.loads(Openjson.read())
     for i in data_json['labels']:
@@ -84,7 +85,7 @@ def edited_lines(idcommit):
             print("aqui hay algo mal")
             count_of_files_edited_add = re.findall(r'\d+ (?=files changed)', lines)
             print("aqui sabremos",count_of_files_edited_add)
-            if count_of_files_edited_add is  None:
+            if count_of_files_edited_add == EmptyValue:
                 count_of_files_edited_add = re.findall(r'\d+ (?=file changed)', lines)
 
             if count_of_files_edited_add:
