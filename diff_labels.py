@@ -85,14 +85,14 @@ def edited_lines(idcommit):
             print("aqui hay algo mal")
             count_of_files_edited_add = re.findall(r'\d+ (?=files changed)', lines)
             print("aqui sabremos",count_of_files_edited_add)
-<<<<<<< HEAD
+
             if count_of_files_edited_add is  None:
                 count_of_files_edited_add = re.findall(r'\d+ (?=file changed)', lines)
-=======
+
             if count_of_files_edited_add == EmptyValue:
                 count_of_files_edited_add = re.findall(r'\d+ (?=file changed)', lines)
                 print("lo lograste perro")
->>>>>>> 0bfbbfb5660a091f3eeabc79343be51733ef4322
+
 
             if count_of_files_edited_add:
                 count_of_files_edited_add = count_of_files_edited_add[0]
