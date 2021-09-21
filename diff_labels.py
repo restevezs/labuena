@@ -81,6 +81,7 @@ def edited_lines(idcommit):
 
         if (("files changed" in lines) or ("file changed" in lines)):
             lines.rsplit(',')
+            print("aqui hay algo mal")
             count_of_files_edited_add = re.findall(r'\d+ (?=files changed)', lines)
             if count_of_files_edited_add:
                 count_of_files_edited_add = count_of_files_edited_add[0]
