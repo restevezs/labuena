@@ -63,6 +63,7 @@ def edited_lines(idcommit):
     repo = Repo()
     d = repo.git.merge(idcommit)
     merges_lines = d.split('\n')
+    print(merges_lines)
     print("\n")
     found_first = False
     count_of_files_edited = 0
