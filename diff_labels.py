@@ -56,7 +56,7 @@ def variants_collected(Variant_to_compile):
 def edited_lines(idcommit):
 
     label_fromsjson = []
-    Openjson = open(".ci/a2e_scripts/labels.json", "r")
+    Openjson = open("labels.json", "r")
     data_json = json.loads(Openjson.read())
     for i in data_json['labels']:
         label_fromsjson.append(i)
